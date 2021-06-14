@@ -1,0 +1,38 @@
+
+body {
+  margin: 0px;
+  min-width: 320px;
+  height: 100vh;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Kalam', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: #f0e3ff;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 700px;
+}
+
+main {
+  background-color: #edf7fa;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 600px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  #root {
+    min-height: 100%;
+  }
+  main {
+    width: 100%;
+    margin: 0px;
+    min-height: 100%;
+  }
+}

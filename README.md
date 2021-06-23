@@ -5,8 +5,9 @@ A simple TODO app that can be used for adding new tasks and removing the old one
 
 ## The problem
 
-I have faced problems deploying the project on Netlify but with the help of a code coach got to solve it :)
+I have faced problems pushing the project to Github! So had to set a new branch and merge two branches in order to push!
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+You can find it live here:
+https://todosnazanin.netlify.app/
